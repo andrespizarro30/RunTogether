@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Run Together</string>
+
+    <string name="find_out_your_next_target">Descubre tu próximo objetivo</string>
+
+    <string name="races">Carreras</string>
+
+    <string name="find_race">Buscar carrera</string>
+
+    <string name="MAPS_API_KEY">AIzaSyBUDQWmMG1XqG26w64e11dOO5-hscogOj8</string>
+
+    <string name="run">Run</string>
+
+    <string name="map_race">Mapa Carrera</string>
+
+    <string name="race_positions">Posiciones</string>
+
+    <string name="add_user_opt">Agregar usuario</string>
+
+    <string name="shuserdata">userdata</string>
+    <string name="shpr_user_name">shprusername</string>
+    <string name="shpr_user_id">shpruserid</string>
+
+    <string name="shrundata">rundata</string>
+    <string name="shpr_run_time">shprruntime</string>
+    <string name="shpr_run_distance">shprundistance</string>
+
+</resources>

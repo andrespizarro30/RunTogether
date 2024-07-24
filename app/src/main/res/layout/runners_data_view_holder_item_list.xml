@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_margin="10dp"
+    android:elevation="30dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/runnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre"
+                android:textColor="@color/black"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/runnerDistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Distancia"
+                android:textColor="@color/black"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/runnerSpeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Velocidad"
+                android:textColor="@color/black"
+                android:padding="5dp"/>
+
+            <TextView
+                android:id="@+id/runnerTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tiempo"
+                android:textColor="@color/black"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/userLogo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/city_marathon" />
+
+            <TextView
+                android:id="@+id/positionTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1º"
+                android:textSize="20sp"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

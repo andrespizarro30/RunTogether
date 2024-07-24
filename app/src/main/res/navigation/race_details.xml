@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/race_details"
+app:startDestination="@id/mapScreen">
+
+<fragment
+    android:id="@+id/mapScreen"
+    android:name="com.afsoftwaresolutions.runtogether.ui.races_details.map.MapFragment"
+    android:label="@string/map_race"
+    tools:layout="@layout/fragment_map">
+</fragment>
+
+</navigation>
