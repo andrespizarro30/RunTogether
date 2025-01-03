@@ -1,29 +1,3 @@
 {
-  "project_info": {
-    "project_number": "1000264105323",
-    "project_id": "runtogether-905aa",
-    "storage_bucket": "runtogether-905aa.appspot.com"
-  },
-  "client": [
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:1000264105323:android:e66076ac579bbb9dd8e02e",
-        "android_client_info": {
-          "package_name": "com.afsoftwaresolutions.runtogether"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCGloF6sbE_ceSZyBtF02sT3kJJ0UAje-E"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    }
-  ],
-  "configuration_version": "1"
+
 }
